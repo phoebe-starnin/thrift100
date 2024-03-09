@@ -1,11 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
+import backgroundImage from './THRFT.jpg';
 import './App.css';
 
 function App() {
+  const backgroundStyle = {
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    height: '100vh', // Make sure the image covers the full viewport height
+    margin: 0,       // Remove default margin
+    overflow: 'hidden', // Hide overflow to prevent scrolling
+  };
+
   return (
-    <div className="App">
+    <div style={backgroundStyle}>
+      {/* Your content goes here */}
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -23,3 +34,4 @@ function App() {
 }
 
 export default App;
+

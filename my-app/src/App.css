@@ -13,16 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #568efd;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -36,3 +26,11 @@
     transform: rotate(360deg);
   }
 }
+
+.App{
+  background-image: url('./THRFT.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+

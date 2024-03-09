@@ -1,6 +1,7 @@
 import React from 'react';
 import backgroundImage from './THRFT.jpg';
 import './App.css';
+// test
 
 function App() {
   const backgroundStyle = {

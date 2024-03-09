@@ -13,13 +13,14 @@ function App() {
     margin: 0,       // Remove default margin
     overflow: 'hidden', // Hide overflow to prevent scrolling
   };
+  
 
   return (
     <div style={backgroundStyle}>
       {/* Your content goes here */}
       <header className="App-header">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Leila <code></code>
         </p>
         <a
           className="App-link"
@@ -29,6 +30,9 @@ function App() {
         >
           Learn React
         </a>
+        <button className = 'signIn' onClick = {() => alert('Button clicked!')}> 
+        Sign In
+        </button>
       </header>
     </div>
   );

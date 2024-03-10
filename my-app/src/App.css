@@ -5,7 +5,8 @@ body {
   background-color: pink;
   color: hotpink; /* Text color hot pink */
   font-weight:bolder;
-  font-size: xx-large; /* Make text bold */
+  font-size: xx-large;
+  position: absolute; /* Make text bold */
 }
 
 /* If you want to make specific elements bold */

@@ -3,8 +3,8 @@
 }
 body {
   background-color: pink;
-  color: blue; /* Text color hot pink */
-  font-weight: bold;
+  color: hotpink; /* Text color hot pink */
+  font-weight:bolder;
   font-size: xx-large; /* Make text bold */
 }
 
